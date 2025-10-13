@@ -1,0 +1,99 @@
+
+.imgdiv{
+  width: 550px;
+  height: 550px;
+  /* border: 1px solid black; */
+  position: relative;
+  background-image: url("unnamed.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.num{
+    /* position: absolute; */
+   
+    font-family: 'Digital-7', sans-serif;
+  font-size: 80px;
+  animation: blink 1s infinite;
+
+}
+.tb{
+    width: 313px;
+    height: 120px;
+    /* border: 1px solid black; */
+    position: absolute;
+     top: 100px;
+    left: 120px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.inn{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgba(255, 0, 0, 0) ;
+     top: 310px;
+    left: 175px;
+    border: 0;
+    color: rgba(255, 255, 255, 0.593);
+}
+
+
+
+
+.res{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    border: 0;   
+    background-color: rgba(255, 255, 255, 0);
+    top: 285px;
+    left: 355px;
+    color: rgba(255, 255, 255, 0.222);
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .imgdiv {
+    width: 90vw;
+    height: 90vw;
+    background-size: cover;
+  }
+
+  .tb {
+    width: 55vw;
+    height: 20vw;
+    top: 15vw;
+    left: 16vw;
+  }
+
+  .num {
+    font-size: 14vw;
+  }
+
+  .inn {
+    width: 36vw;
+    height: 36vw;
+    top: 50vw;
+    left: 28vw;
+    font-size: 0;
+
+  }
+
+  .res {
+    width: 12vw;
+    height: 12vw;
+    top: 45vw;
+    left: 57vw;
+    font-size: 0;
+  }
+}
