@@ -18,3 +18,5 @@ res.onclick= function() {
     tb.style.backgroundColor= "   rgba(255, 0, 0, 0.315)  " ;
     
 }
+let imgdiv=document.querySelector("imgdiv")
+let tb=document.querySelector(".tb")
